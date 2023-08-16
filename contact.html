@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>42-maktab</title>
+
+
+  <link rel="icon" type="image/x-icon" href="./images/855601.png">
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- progress barstle -->
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- font wesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+
+
+</head>
+
+<body>
+  <div class="top_container sub_pages ">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <i style="color: yellow" class='bx bxs-school'></i>
+            <span>
+              42-maktab
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Asosiy <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="about.html"> Biz haqimizda </a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="teacher.html"> O'qituvchilar </a>
+                </li>
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="vehicle.html"> vehicle </a>
+                  </li> -->
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Bog'lanish</a>
+                </li>
+
+              </ul>
+
+            </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!-- end header section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding-bottom">
+    <div class="container">
+
+      <h2 class="main-heading">
+        Ro'yhatdan o'tish
+
+      </h2>
+      <p class="text-center">
+
+
+      </p>
+      <div class="">
+        <div class="contact_section-container">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <div class="contact-form">
+                <form id="shippingForm" action="https://formsubmit.co/42maktab.uz@gmail.com" method="POST">
+                  <div>
+                    <input id="name" name="name" required type="text" placeholder="Ismingiz">
+                  </div>
+                  <div>
+                    <input id="tel" name="Phone_no" required type="text" placeholder="Telefon raqamingiz">
+                  </div>
+                  <div>
+                    <input id="email" name="email" required type="email" placeholder="Elektron pochtangiz">
+                  </div>
+                  <div>
+                    <input id="message" name="message" required type="text" placeholder="Xabar" class="input_message">
+                  </div>
+
+                  <!-- <input type="hidden" name="_captcha" value="false"> -->
+                  <input type="hidden" name="_template" value="table">
+                  <div class="d-flex justify-content-center">
+                    <!-- <button xclass="btn_on-hover call_to-btn" href="#">
+                      Jo'natish
+                    </button> -->
+                    <button class="btn_on-hover call_to-btn" type="submit">
+                      JO'natish
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- <script>
+
+    const formInput = document.querySelectorAll('#shippingForm input')
+    const form = document.querySelector('#shippingForm')
+    console.log(formInput);
+    let message = {}
+    formInput.forEach(item => {
+      item.addEventListener('change', (e) => {
+        message = {
+          ...message,
+          [e.target.name]: e.target.value
+        }
+      })
+    })
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      console.log(message);
+      for (let key of formInput) {
+        key.value = ''
+      }
+
+    })
+
+       // document.addEventListener('submit', function (event) {
+
+    //   event.preventDefault();
+
+
+    //   event.target.reset();
+
+    // });
+  </script> -->
+  <!-- <script>
+  function myReset() {
+  var form = document.querySelector('form');
+  form.reset();
+}
+</script> -->
+
+  <!-- end contact section -->
+
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <!-- <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Kurslar va ta'lim</h4>
+                <a class="btn btn-link" href="">Front-end 8 oy</a>
+                <a class="btn btn-link" href="">Back-end 8 oy</a>
+                <a class="btn btn-link" href="">Grafik dizayn 6 oy</a> -->
+
+      </div>
+      <div class="col-lg-12 col-md-12">
+        <h4 class="text-white mb-3">Bog'lanish</h4>
+        <p class="mb-2"><i style="font-size: 20px;" class='bx bxs-location-plus'></i>Namangan shahar Namangan viloyati
+          Davlatobod tumani 4-kichik nohiyha</p>
+        <p class="mb-2"><i style="font-size: 20px;" class='bx bxs-phone'></i> +998999999999 </p>
+        <p class="mb-2"><i class="fa fa-envelope me-3"></i> 42maktab.uz@gmail.com </p>
+        <div class="d-flex pt-2">
+          <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-twitter'></i></a>
+          <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-facebook'></i></a>
+          <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-youtube'></i></a>
+          <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-tiktok'></i></a>
+        </div>
+      </div>
+      <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+      Email.send({
+    Host : "",
+    Username : "42maktab@gmail.com",
+    Password : "42424242m",
+    To : '42maktab.uz@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+  </script> -->
+      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <!-- progreesbar script -->
+
+      </script>
+      <script>
+        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+        // Australia.
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 11,
+            center: {
+              lat: 40.645037,
+              lng: -73.880224
+            },
+          });
+
+          var image = 'images/maps-and-flags.png';
+          var beachMarker = new google.maps.Marker({
+            position: {
+              lat: 40.645037,
+              lng: -73.880224
+            },
+            map: map,
+            icon: image
+          });
+        }
+      </script>
+      <!-- google map js -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
+
+</body>
+
+</html>
